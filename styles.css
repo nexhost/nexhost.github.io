@@ -1,0 +1,28 @@
+.slick-slide img {
+    margin: 0 auto !important;
+    width:160px !important;
+}
+a{
+    outline: none !important;
+}
+
+body div {display:flex !important;}
+
+
+.slick-prev , .slick-next  {background:#44a1ce !important;  border-radius:3 !important; font-size:0px !important; border:none !important;
+                           height: 30px !important;
+    align-self: center !important; font-weight:bold !important;
+                           }
+
+.slick-prev::before
+{
+    content:"<";
+    color:#fff;
+    font-size:16px !important;
+}
+.slick-next::after
+{
+    content:">";
+    color:#fff;
+    font-size:16px !important;
+}
